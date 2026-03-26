@@ -1,0 +1,151 @@
+_dataset:
+  class: RomaniBF2025ERP
+  code: RomaniBF2025ERP
+  doi: 10.48550/arXiv.2510.10169
+  interval:
+  - -0.1
+  - 1.0
+  n_subjects: 22
+  paradigm: p300
+abstract: BrainForm is a gamified Brain-Computer Interface (BCI) training system designed for scalable data collection using
+  consumer hardware and a minimal setup. We investigated (1) how users develop BCI control skills across repeated sessions
+  and (2) perceptual and performance effects of two visual stimulation textures. Game Experience Questionnaire (GEQ) scores
+  for Flow, Positive Affect, Competence and Challenge were strongly positive, indicating sustained engagement. A within-subject
+  study with multiple runs, two task complexities, and post-session questionnaires revealed no significant performance differences
+  between textures but increased ocular irritation over time. Online metrics—Task Accuracy, Task Time, and Information Transfer
+  Rate—improved across sessions, confirming learning effects for symbol spelling, even under pressure conditions. Our results
+  highlight the potential of BrainForm as a scalable, user-friendly BCI research tool and offer guidance for sustained engagement
+  and reduced training fatigue.
+acquisition:
+  cap_manufacturer: g.tec
+  cap_model: Unicorn Hybrid Black
+  channel_types:
+    eeg: 8
+  electrode_type: conductive gel
+  ground: left mastoid
+  hardware: g.tec Unicorn Hybrid Black
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 8
+  reference: right mastoid
+  sampling_rate: 250.0
+  sensor_type: EEG
+  sensors:
+  - Fz
+  - C3
+  - Cz
+  - C4
+  - Pz
+  - PO7
+  - Oz
+  - PO8
+bci_application:
+  applications:
+  - speller
+  - gaming
+  environment: laboratory
+  online_feedback: true
+contributing_labs:
+- University of Trento
+- Fondazione Bruno Kessler
+cross_validation:
+  cv_method: cross-validation
+  evaluation_type:
+  - within-subject
+data_structure:
+  n_trials: 600
+  trials_context: 'Per calibration session: 600 total stimulus events (60 target + 540 non-target from 10 unique targets).
+    ~1 minute duration.'
+documentation:
+  country: IT
+  data_url: https://zenodo.org/records/17225966
+  description: 'BrainForm: a Serious Game for BCI Training and Data Collection - gamified BCI training system designed for
+    scalable data collection using consumer hardware'
+  doi: 10.48550/arXiv.2510.10169
+  institution: University of Trento
+  institution_address: 38122, Trento, Italy
+  investigators:
+  - Michele Romani
+  - Devis Zanoni
+  - Elisabetta Farella
+  - Luca Turchet
+  keywords:
+  - Brain-Computer Interfaces
+  - Event-Related Potentials
+  - Machine Learning
+  - Serious Games
+  - Human factors
+  license: CC-BY-4.0
+  publication_year: 2025
+  repository: GitHub
+  senior_author: Luca Turchet
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 2
+    Target: 1
+  feedback_type: visual
+  has_training_test_split: true
+  instructions: minimize movement during recording to reduce motion artifacts, focus on flickering targets for calibration
+    and task completion
+  mode: online
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: flickering
+  study_design: 'Within-subject study with two main sessions separated by visual texture swap (counterbalanced). Each session:
+    calibration, tutorial, practice run with Complex Task (5 targets) and Speller Task (10 targets). Optional free-play third
+    session for 16 participants.'
+  study_domain: BCI training, serious gaming, skill acquisition
+  synchronicity: synchronous
+  tasks:
+  - Complex Task (5 colored laser beams)
+  - Speller Task (10 color targets)
+  trial_duration: 0.9
+file_format: EDF
+methodology: 'Structured protocol consisting of: (1) introductory tutorial, (2) two practice runs involving calibration and
+  control with up to ten flickering targets, (3) final timed challenge. Two main sessions separated by short break and visual
+  texture swap (counterbalanced). Calibration: 60 trials focusing on single flashing target (~1 minute), repeated until 80%+
+  accuracy. Tasks: Complex Task (5 colored laser beams, game-oriented) and Speller Task (10 color targets, BCI-oriented symbol
+  spelling). Optional free-play run for 16 participants. Data collection: raw EEG, performance metrics, in-game metadata,
+  and questionnaires (demographic, session questionnaire, GEQ).'
+n_contributing_labs: 2
+paradigm_specific:
+  detected_paradigm: p300
+  n_targets: 10
+  soa_ms: 100.0
+participants:
+  age_mean: 21.87
+  age_std: 3.22
+  bci_experience: naive
+  gender:
+    female: 10
+    male: 12
+  health_status: healthy
+  n_subjects: 22
+  species: homo sapiens
+performance:
+  calibration_attempts_session1_mean: 2.64
+  calibration_attempts_session2_mean: 2.68
+  itr_complex_mean_t2a: 10.76
+  itr_speller_mean_t3b: 21.95
+  task_accuracy_complex_median_t2a: 0.833
+  task_accuracy_speller_median_t3b: 0.833
+preprocessing:
+  data_state: raw
+runs_per_session: 1
+sessions_per_subject: 2
+signal_processing:
+  classifiers:
+  - LDA
+tags:
+  modality:
+  - ERP
+  pathology:
+  - Healthy
+  type:
+  - P300
