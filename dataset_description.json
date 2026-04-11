@@ -1,0 +1,28 @@
+{
+  "Name": "Romani et al. 2025 — BrainForm: a Serious Game for BCI Training and Data Collection (P300 ERP, University of Trento)",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Michele Romani",
+    "Devis Zanoni",
+    "Elisabetta Farella",
+    "Luca Turchet"
+  ],
+  "DatasetDOI": "doi:10.48550/arXiv.2510.10169",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.48550/arXiv.2510.10169",
+    "https://zenodo.org/records/17225966"
+  ],
+  "Acknowledgements": "University of Trento and Fondazione Bruno Kessler",
+  "PublicationYear": 2025,
+  "Keywords": [
+    "Brain-Computer Interfaces",
+    "Event-Related Potentials",
+    "P300",
+    "Machine Learning",
+    "Serious Games",
+    "Human factors"
+  ],
+  "Version": "1.0.1"
+}
