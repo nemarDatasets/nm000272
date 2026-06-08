@@ -9,7 +9,7 @@
     "Elisabetta Farella",
     "Luca Turchet"
   ],
-  "DatasetDOI": "doi:10.48550/arXiv.2510.10169",
+  "DatasetDOI": "10.82901/nemar.nm000272",
   "ReferencesAndLinks": [
     "https://doi.org/10.48550/arXiv.2510.10169",
     "https://zenodo.org/records/17225966"
@@ -24,5 +24,10 @@
     "Serious Games",
     "Human factors"
   ],
-  "Version": "1.0.1"
+  "Version": "1.0.1",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.48550/arXiv.2510.10169"
+    }
+  ]
 }
