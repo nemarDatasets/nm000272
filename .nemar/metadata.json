@@ -1,0 +1,74 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Michele Romani": {},
+    "Devis Zanoni": {},
+    "Elisabetta Farella": {},
+    "Luca Turchet": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.2510.10169",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000272",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000272",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Romani et al. 2025 — BrainForm: a Serious Game for BCI Training and Data Collection (P300 ERP, University of Trento)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "138.1 MB (121 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "BrainForm is a P300 event-related potential (ERP) EEG dataset collected from 22 participants using a gamified brain-computer interface (BCI) designed for scalable data collection with consumer hardware. Participants completed repeated runs of a P300 spelling/selection task within a serious game paradigm, enabling investigation of BCI skill acquisition across sessions and perceptual effects of different visual stimulation textures. The dataset supports research in BCI training, human factors, and machine learning applications on ERP data.",
+  "methods_description": "Scalp electroencephalography (EEG) recordings were collected during a P300 oddball/speller task embedded within a serious game. Participants completed multiple runs with two task complexity levels in a within-subject design using consumer hardware and minimal setup.",
+  "keywords": [
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Event-Related Potentials"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Machine Learning"
+    },
+    {
+      "term": "Serious Games"
+    },
+    {
+      "term": "BCI skill acquisition"
+    }
+  ],
+  "source_hash": "b8734029ef959770a2097ec1ab6a63f1ea01ea757a84aea70741d20c67ed817d"
+}
