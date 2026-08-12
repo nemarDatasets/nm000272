@@ -1,0 +1,2475 @@
+{
+ "dataset": "nm000272",
+ "moabb_class": "RomaniBF2025ERP",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.RomaniBF2025ERP.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-RomaniBF2025ERP-data/BIDS",
+ "license": "?",
+ "doi": "10.48550/arXiv.2510.10169",
+ "naming": "upstream_filenames_restored",
+ "n_files": 492,
+ "total_bytes": 108360756,
+ "files": [
+  {
+   "file": "README",
+   "bytes": 698,
+   "sha256": "6490e8871d55d31fb534d75799528b11d9559718f98304a7d0fc43b1441304ad"
+  },
+  {
+   "file": "dataset_description.json",
+   "bytes": 170,
+   "sha256": "c2d863636e56cab0807b7e5776c22783def3176141db67d4a223aeed22d41357"
+  },
+  {
+   "file": "participants.json",
+   "bytes": 379,
+   "sha256": "1414dd7276a74f360ee173ed7f2716948a7684ca374c086a81be703da0a2d2fb"
+  },
+  {
+   "file": "participants.tsv",
+   "bytes": 435,
+   "sha256": "908eb7b6e70cc674ed1e0e41f7e7cb9f5da31e9ed8890e494db2ffe9101e03ba"
+  },
+  {
+   "file": "sub-P01/ses-0grain/eeg/sub-P01_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P01/ses-0grain/eeg/sub-P01_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P01/ses-0grain/eeg/sub-P01_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P01/ses-0grain/eeg/sub-P01_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 1662992,
+   "sha256": "e25902369044191eeecfdfebd87e373aa93d2b164b33e8b6662659f6853081d1"
+  },
+  {
+   "file": "sub-P01/ses-0grain/eeg/sub-P01_ses-0grain_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "4b9ce95c456f327a3c5a70c8577cd466c1d3a55f8a5c9c88a555481e0490d979"
+  },
+  {
+   "file": "sub-P01/ses-0grain/eeg/sub-P01_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P01/ses-0grain/eeg/sub-P01_ses-0grain_task-ERP_events.tsv",
+   "bytes": 48072,
+   "sha256": "b3f342e1d221044577f5d680d10e203ce25e4f1cff35c1ba4680af7be47c257d"
+  },
+  {
+   "file": "sub-P01/ses-0grain/sub-P01_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "2be66d2888d637cf3d64f382e29e4c1356ae3b296c558ebc18efff7fe318c73c"
+  },
+  {
+   "file": "sub-P01/ses-1cb/eeg/sub-P01_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P01/ses-1cb/eeg/sub-P01_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P01/ses-1cb/eeg/sub-P01_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P01/ses-1cb/eeg/sub-P01_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1771076,
+   "sha256": "5fdd5393f5c64391e42a80e72eccd49b6e825d9f2fcf815e578ce80278ec1fb9"
+  },
+  {
+   "file": "sub-P01/ses-1cb/eeg/sub-P01_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "d5d51e7ecaf77db815baf693389176508016441bf002ff3f9dbc7f2646fa3b47"
+  },
+  {
+   "file": "sub-P01/ses-1cb/eeg/sub-P01_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P01/ses-1cb/eeg/sub-P01_ses-1cb_task-ERP_events.tsv",
+   "bytes": 69613,
+   "sha256": "21324f669d11d0b376b02e6c02b4692d2c8b35782dfc6301c1cad9ee1a890b76"
+  },
+  {
+   "file": "sub-P01/ses-1cb/sub-P01_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "6b2c6be1d9037cc1a81532fddbb51b46f8567f8344ae3c75fcaae6c8e765b735"
+  },
+  {
+   "file": "sub-P02/ses-0cb/eeg/sub-P02_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P02/ses-0cb/eeg/sub-P02_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P02/ses-0cb/eeg/sub-P02_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P02/ses-0cb/eeg/sub-P02_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 2139272,
+   "sha256": "3559ee33aa7169acb662e7368c4e0de14818d3d9720be8d72af7d9cf835d57f7"
+  },
+  {
+   "file": "sub-P02/ses-0cb/eeg/sub-P02_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "90fa0d50ffc46258f8034ba0b11b83f1622418e151d4ec6c79c8cf0930cff383"
+  },
+  {
+   "file": "sub-P02/ses-0cb/eeg/sub-P02_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P02/ses-0cb/eeg/sub-P02_ses-0cb_task-ERP_events.tsv",
+   "bytes": 66519,
+   "sha256": "9790cd4cba4f92ea163ae9723598048eb767fcaae1d832c61e757d52805422a9"
+  },
+  {
+   "file": "sub-P02/ses-0cb/sub-P02_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "2bc37422c18a6e711f2fca5f02c511e1c4efbd2403ba464ab6a2954c2d6b6632"
+  },
+  {
+   "file": "sub-P02/ses-1grain/eeg/sub-P02_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P02/ses-1grain/eeg/sub-P02_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P02/ses-1grain/eeg/sub-P02_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P02/ses-1grain/eeg/sub-P02_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 1535984,
+   "sha256": "62b8bc5cf82ef79f3de6f249d5e55196e332a4fe5a473a4817a4d0b22cdc77b8"
+  },
+  {
+   "file": "sub-P02/ses-1grain/eeg/sub-P02_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "bdc12c4b1c563838e117c65b712796aa5fdc02974c82b445782488141114439d"
+  },
+  {
+   "file": "sub-P02/ses-1grain/eeg/sub-P02_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P02/ses-1grain/eeg/sub-P02_ses-1grain_task-ERP_events.tsv",
+   "bytes": 53715,
+   "sha256": "165de986686053cdb8d477f9bb2062df8407719cc9daf365d7ad184ca3f7cf4d"
+  },
+  {
+   "file": "sub-P02/ses-1grain/sub-P02_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "45e4269a15cc6b8eae064bcdc6ab0dc04c8d5a88694d2392e850ae42eed64e42"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/eeg/sub-P02_ses-2grainExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/eeg/sub-P02_ses-2grainExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/eeg/sub-P02_ses-2grainExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/eeg/sub-P02_ses-2grainExtra_task-ERP_eeg.edf",
+   "bytes": 1667528,
+   "sha256": "1fde45ff393248192febd15fd6b279eb78ac3f522796ff9cae266f3d2bedf2aa"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/eeg/sub-P02_ses-2grainExtra_task-ERP_eeg.json",
+   "bytes": 509,
+   "sha256": "40ce02823dc016f7fa8309a84135a3a04df73ada8f9115fb2647b183ba5b7e9f"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/eeg/sub-P02_ses-2grainExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/eeg/sub-P02_ses-2grainExtra_task-ERP_events.tsv",
+   "bytes": 34780,
+   "sha256": "26a0d4114f2a450b552d6f5270474958293dacb13bc5cba6237611b78b33e4d9"
+  },
+  {
+   "file": "sub-P02/ses-2grainExtra/sub-P02_ses-2grainExtra_scans.tsv",
+   "bytes": 96,
+   "sha256": "c5c707ca1034c7eca6a34f06ff4cbff5b293bc8b3f7b603092b11c18ac88f6df"
+  },
+  {
+   "file": "sub-P03/ses-0grain/eeg/sub-P03_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P03/ses-0grain/eeg/sub-P03_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P03/ses-0grain/eeg/sub-P03_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P03/ses-0grain/eeg/sub-P03_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 1563200,
+   "sha256": "3d13a1a90d4f403cf1c24bc2d3c09ea230f4f7468224055c7b5f06260845e684"
+  },
+  {
+   "file": "sub-P03/ses-0grain/eeg/sub-P03_ses-0grain_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "eba4be7833d9fc097362d7724b655a3a5394e58252b2819b781382792a03fa4d"
+  },
+  {
+   "file": "sub-P03/ses-0grain/eeg/sub-P03_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P03/ses-0grain/eeg/sub-P03_ses-0grain_task-ERP_events.tsv",
+   "bytes": 42737,
+   "sha256": "fa3ca1cc9b33beca7859dba95d73503939905780fe681c25cfcd608dfd63a401"
+  },
+  {
+   "file": "sub-P03/ses-0grain/sub-P03_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "b66753b9ce3682c8a0007f2eaffb0d6d6a45a1e0b357bf543eb75482ffd5e422"
+  },
+  {
+   "file": "sub-P03/ses-1cb/eeg/sub-P03_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P03/ses-1cb/eeg/sub-P03_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P03/ses-1cb/eeg/sub-P03_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P03/ses-1cb/eeg/sub-P03_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1731032,
+   "sha256": "ed27ab1e3447ca7f74e797241ab3fdaf449404df744d8879f1cf34de94a6eba8"
+  },
+  {
+   "file": "sub-P03/ses-1cb/eeg/sub-P03_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "9ee33e94215154b83a901cc55413c1857f55ea5f652d9b3a11bc7d49bd04f288"
+  },
+  {
+   "file": "sub-P03/ses-1cb/eeg/sub-P03_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P03/ses-1cb/eeg/sub-P03_ses-1cb_task-ERP_events.tsv",
+   "bytes": 54673,
+   "sha256": "700107cb4798cad888b80b324e66e3b68f62f3c954bb21d22a154dbc07263eaa"
+  },
+  {
+   "file": "sub-P03/ses-1cb/sub-P03_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "db22da02b3cad5905988d3b383aa866a8d448c688c528f39794ef4877e564e76"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/eeg/sub-P03_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/eeg/sub-P03_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/eeg/sub-P03_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/eeg/sub-P03_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 945888,
+   "sha256": "ec55135921e8a25138cc124a1263e3f283d2f1b5b60977fdaacb3a75b767ef29"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/eeg/sub-P03_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "9784fb00aa592bd4b3fa22e7b4234d7c6b9587f572c8f124ba2f35396af3804d"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/eeg/sub-P03_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/eeg/sub-P03_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 33318,
+   "sha256": "1fc9520eced4dfac019cdf8563a558db99e0916a100748590677c261cafbbffc"
+  },
+  {
+   "file": "sub-P03/ses-2cbExtra/sub-P03_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "1b35c83406e9c254ee2827423da57a50cea68dd7a863f0ff9e323a4f1a09d9ef"
+  },
+  {
+   "file": "sub-P04/ses-0cb/eeg/sub-P04_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P04/ses-0cb/eeg/sub-P04_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P04/ses-0cb/eeg/sub-P04_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P04/ses-0cb/eeg/sub-P04_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 2247146,
+   "sha256": "aace0a2a9375f41609192708c48abc069424e3e8aa475283698702d41a25060f"
+  },
+  {
+   "file": "sub-P04/ses-0cb/eeg/sub-P04_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "89b03f93e95cc2c793374989a970e55da40980da1a2ef2bf947f4167b92e8c8f"
+  },
+  {
+   "file": "sub-P04/ses-0cb/eeg/sub-P04_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P04/ses-0cb/eeg/sub-P04_ses-0cb_task-ERP_events.tsv",
+   "bytes": 80224,
+   "sha256": "c8f778690b907b15b384e9bbdcb968ed72df89606c4f00bf573e86adee528e29"
+  },
+  {
+   "file": "sub-P04/ses-0cb/sub-P04_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "e03131fac76e03515292fe5214378b0652e13938c0d75b37ce82ec8f92e020ed"
+  },
+  {
+   "file": "sub-P04/ses-1grain/eeg/sub-P04_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P04/ses-1grain/eeg/sub-P04_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P04/ses-1grain/eeg/sub-P04_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P04/ses-1grain/eeg/sub-P04_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 1898864,
+   "sha256": "06c2408445445ff9afe7c36d5df449edfc044e90da8f7c14db9b3cff7762f0c0"
+  },
+  {
+   "file": "sub-P04/ses-1grain/eeg/sub-P04_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "1d9258e90eed8af5b77a5317141cb40ff6bb764e66ea9231fac04342442ae385"
+  },
+  {
+   "file": "sub-P04/ses-1grain/eeg/sub-P04_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P04/ses-1grain/eeg/sub-P04_ses-1grain_task-ERP_events.tsv",
+   "bytes": 75538,
+   "sha256": "7f5d9472c6f7d2c18527beb6c8c4571ad7d92e91ae001ad87de0a991d6a416a8"
+  },
+  {
+   "file": "sub-P04/ses-1grain/sub-P04_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "bd70d2473690b536e6f00e39b08af64bde3b9aab8631ae5a9ecc8873ec96bb75"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/eeg/sub-P04_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/eeg/sub-P04_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/eeg/sub-P04_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/eeg/sub-P04_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1127248,
+   "sha256": "b82f5e7fd51d0fdc50c392380362c2c0fcae04bbdc685f87221aea4f8d2b709f"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/eeg/sub-P04_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "81b828b07850971f6aff4eb5d8c82dad1d96d83a2f5dac5f1ec05789c8449415"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/eeg/sub-P04_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/eeg/sub-P04_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 44426,
+   "sha256": "47f7267d58bb184042e87bda7a34b2932a07b7539182d5169b15d2f312aa0566"
+  },
+  {
+   "file": "sub-P04/ses-2cbExtra/sub-P04_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "627ff9d7cc8807aa50dec2af9ae692218b956a1f518cd25c62bced16e522af82"
+  },
+  {
+   "file": "sub-P05/ses-0grain/eeg/sub-P05_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P05/ses-0grain/eeg/sub-P05_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P05/ses-0grain/eeg/sub-P05_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P05/ses-0grain/eeg/sub-P05_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 1985048,
+   "sha256": "6796a1b06c8bfbc9703b6004e5ceec07948e2e80e5aad59d94c69fa7f6c93b16"
+  },
+  {
+   "file": "sub-P05/ses-0grain/eeg/sub-P05_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "6e1ae1076c8fd2c3a8f8561f8d6227ddab9d8e87d822da881d87f2849cc3bc28"
+  },
+  {
+   "file": "sub-P05/ses-0grain/eeg/sub-P05_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P05/ses-0grain/eeg/sub-P05_ses-0grain_task-ERP_events.tsv",
+   "bytes": 52640,
+   "sha256": "aa84314b25d8c176a8ea81c3ee82c50d74a09fb8e66a6cbf1b28ba9b768cb3c8"
+  },
+  {
+   "file": "sub-P05/ses-0grain/sub-P05_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "cf533bc1b844079f43840a0d4c4afaabb081fbea570971798deca9455357dc6c"
+  },
+  {
+   "file": "sub-P05/ses-1cb/eeg/sub-P05_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P05/ses-1cb/eeg/sub-P05_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P05/ses-1cb/eeg/sub-P05_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P05/ses-1cb/eeg/sub-P05_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1799072,
+   "sha256": "b3de25b55e11bb99d1711a8ef407a3b656e4874a3072d9c19ee12ae0e6dd1e35"
+  },
+  {
+   "file": "sub-P05/ses-1cb/eeg/sub-P05_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "038ebf3044b2f40ba89b5a3ab622f5f9076e607506dec24f9118b517b476ad73"
+  },
+  {
+   "file": "sub-P05/ses-1cb/eeg/sub-P05_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P05/ses-1cb/eeg/sub-P05_ses-1cb_task-ERP_events.tsv",
+   "bytes": 66064,
+   "sha256": "c5ca97c1519f2f912fe184b1c3f066c9c202ec11549aad2c784486c87f3634e8"
+  },
+  {
+   "file": "sub-P05/ses-1cb/sub-P05_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "46478fbd80b5125daa3babcdc9f4cffcbae4338b35a73cbdbd5786674f573afa"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/eeg/sub-P05_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/eeg/sub-P05_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/eeg/sub-P05_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/eeg/sub-P05_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1209392,
+   "sha256": "ef023e616e415278f4adf684dc6a8d31efd6d5953401b98231cc2a0b08f00853"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/eeg/sub-P05_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "7912f6ab7199f34d2797a75002e93c63dfdb0999e8cd1957da63f5fe9e0d6b3d"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/eeg/sub-P05_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/eeg/sub-P05_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 47781,
+   "sha256": "e2f7d9c589196396b59f7c6f12999b07fc94a36f03ecfa82faf0e27e9aa65574"
+  },
+  {
+   "file": "sub-P05/ses-2cbExtra/sub-P05_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "8c12fd27f4b7843fd5b21e41d866b2a4b69dc9ef7ace940f22b8cf3ca5080108"
+  },
+  {
+   "file": "sub-P06/ses-0cb/eeg/sub-P06_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P06/ses-0cb/eeg/sub-P06_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P06/ses-0cb/eeg/sub-P06_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P06/ses-0cb/eeg/sub-P06_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 2080304,
+   "sha256": "6d90334f065339fcddfbd65e0cc9fc403fc74fb8ebdfdf3ad9a52be8facc0319"
+  },
+  {
+   "file": "sub-P06/ses-0cb/eeg/sub-P06_ses-0cb_task-ERP_eeg.json",
+   "bytes": 509,
+   "sha256": "e41f7855fe52e380ab60a4afa244e28fad66d6a104f577848f40258b5171426b"
+  },
+  {
+   "file": "sub-P06/ses-0cb/eeg/sub-P06_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P06/ses-0cb/eeg/sub-P06_ses-0cb_task-ERP_events.tsv",
+   "bytes": 57181,
+   "sha256": "6dba0d5581b68df5aa42023128d1638c3de05355f9ffcbd4e6c1f8f99764934a"
+  },
+  {
+   "file": "sub-P06/ses-0cb/sub-P06_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "a8ef6375789a217432fe4e91f503b7f991b9e5b36f0047ff13b61f70e66116f4"
+  },
+  {
+   "file": "sub-P06/ses-1grain/eeg/sub-P06_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P06/ses-1grain/eeg/sub-P06_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P06/ses-1grain/eeg/sub-P06_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P06/ses-1grain/eeg/sub-P06_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 2524832,
+   "sha256": "5f4b9d25e5558f91c5e381f47acf136475bed729b187e927c10463a956c6c40a"
+  },
+  {
+   "file": "sub-P06/ses-1grain/eeg/sub-P06_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "a9ee66ab848e33fbaa15c88233c180311625af16fddc2f855920d038cd661cce"
+  },
+  {
+   "file": "sub-P06/ses-1grain/eeg/sub-P06_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P06/ses-1grain/eeg/sub-P06_ses-1grain_task-ERP_events.tsv",
+   "bytes": 103768,
+   "sha256": "2803dfb2729ede6cc8ac47bd9be765816610be66128156cdb1f157ae972b1b35"
+  },
+  {
+   "file": "sub-P06/ses-1grain/sub-P06_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "e24084b452d341ef2352e0da0e7e099c795c1be93f3ffd0c58cdcd3b07ff0e70"
+  },
+  {
+   "file": "sub-P07/ses-0grain/eeg/sub-P07_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P07/ses-0grain/eeg/sub-P07_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P07/ses-0grain/eeg/sub-P07_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P07/ses-0grain/eeg/sub-P07_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 1793746,
+   "sha256": "a863c2247cb69516bc780d820476046bf0150faa624a7071bd38ffbdf296fa82"
+  },
+  {
+   "file": "sub-P07/ses-0grain/eeg/sub-P07_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "b73a39d1855e6f3064b527561e7db5fda632121d1f0bbc72a177cfade95f610a"
+  },
+  {
+   "file": "sub-P07/ses-0grain/eeg/sub-P07_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P07/ses-0grain/eeg/sub-P07_ses-0grain_task-ERP_events.tsv",
+   "bytes": 55687,
+   "sha256": "c6526408760adcc97c5ae1f7c1686ae1377028b2c589d0e909b2c6410155d88a"
+  },
+  {
+   "file": "sub-P07/ses-0grain/sub-P07_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "5e4afb9cf0eb48b6f064ec5aa50a4c15dc44f2dfaf7831cecd4612ca713de07f"
+  },
+  {
+   "file": "sub-P07/ses-1cb/eeg/sub-P07_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P07/ses-1cb/eeg/sub-P07_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P07/ses-1cb/eeg/sub-P07_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P07/ses-1cb/eeg/sub-P07_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1989584,
+   "sha256": "1061f0e8f780705003435b020c4323155074b1189373026d13564a98d04e1f3f"
+  },
+  {
+   "file": "sub-P07/ses-1cb/eeg/sub-P07_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "83e2a905e74dfa4ea38e53b120e654f99e83f78437afa419d86d0c1f4b8781a5"
+  },
+  {
+   "file": "sub-P07/ses-1cb/eeg/sub-P07_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P07/ses-1cb/eeg/sub-P07_ses-1cb_task-ERP_events.tsv",
+   "bytes": 83121,
+   "sha256": "1e3685f51ba5661cbbcb0e25591aa9a6303f22baf22234b79dc2e061ff1d50f9"
+  },
+  {
+   "file": "sub-P07/ses-1cb/sub-P07_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "cb9151611035ad11d3631c9523754933646aa15514258998f137caab8f37f290"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/eeg/sub-P07_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/eeg/sub-P07_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/eeg/sub-P07_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/eeg/sub-P07_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1276308,
+   "sha256": "1a5fc111b045c116d5add6b74b5520fecbb11d152229119e2b6e9ba3463de6ee"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/eeg/sub-P07_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "8a1b734bbe27a5656e64933fe30ed35b7f0e819d10e50ae53fb37cbd8d61c612"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/eeg/sub-P07_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/eeg/sub-P07_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 51576,
+   "sha256": "f7a9762198ccba3a3f68394b8277b62a8100fec169b09e04e4095d1e7c256c20"
+  },
+  {
+   "file": "sub-P07/ses-2cbExtra/sub-P07_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "d3d1f2cedefb6cde816a32215845b4cefb3574542538f9331b12cbac241b4fcd"
+  },
+  {
+   "file": "sub-P08/ses-0cb/eeg/sub-P08_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P08/ses-0cb/eeg/sub-P08_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P08/ses-0cb/eeg/sub-P08_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P08/ses-0cb/eeg/sub-P08_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 1970572,
+   "sha256": "bfcf213a8083724f310fb518b76b33058adf16b09921f326695b8d8e670dd005"
+  },
+  {
+   "file": "sub-P08/ses-0cb/eeg/sub-P08_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "4214b5a95eb50887337bc6b9de42109d61c3309d6f0ac97f050fcad767ad8693"
+  },
+  {
+   "file": "sub-P08/ses-0cb/eeg/sub-P08_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P08/ses-0cb/eeg/sub-P08_ses-0cb_task-ERP_events.tsv",
+   "bytes": 46882,
+   "sha256": "a171a991bfa52adf3cf02aec22ee5d6f0ece6d73497376e09cc9155a792aea0d"
+  },
+  {
+   "file": "sub-P08/ses-0cb/sub-P08_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "1e1e0ecc3128cb9d1e3bc65643ea240d5ac649d101203ed9e0661af23934de78"
+  },
+  {
+   "file": "sub-P08/ses-1grain/eeg/sub-P08_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P08/ses-1grain/eeg/sub-P08_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P08/ses-1grain/eeg/sub-P08_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P08/ses-1grain/eeg/sub-P08_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 1935152,
+   "sha256": "6c1fb1d14dfc8fb3cd58ff2771685daa798b90fbb6e4186ad2d9336fb6449030"
+  },
+  {
+   "file": "sub-P08/ses-1grain/eeg/sub-P08_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "5afc5cdb1a630c643169aa05fe5b120b3e56aa2bf963cde579fd1f20a7b9e40d"
+  },
+  {
+   "file": "sub-P08/ses-1grain/eeg/sub-P08_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P08/ses-1grain/eeg/sub-P08_ses-1grain_task-ERP_events.tsv",
+   "bytes": 78679,
+   "sha256": "1112066fd0221fb245a197c6aebebbe5641d8c2db16b334d73d3053b205029a8"
+  },
+  {
+   "file": "sub-P08/ses-1grain/sub-P08_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "8053607fa35ce6df7ec082b0c06886aff62e3dd1ca91c88fc0b4822d755006bb"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/eeg/sub-P08_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/eeg/sub-P08_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/eeg/sub-P08_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/eeg/sub-P08_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1136816,
+   "sha256": "810916f76ca8f627bfb765112945f07452e9ce998221ea3dc03f8ff7efdb016c"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/eeg/sub-P08_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "f484b76313e84edaa1c0365a144014ae3f54629fdda8562a8b80a8601c570b80"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/eeg/sub-P08_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/eeg/sub-P08_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 38684,
+   "sha256": "13e13d395b1e2cc57e710fbe001a2b69736d90b34644cf42808634fc71daa6ee"
+  },
+  {
+   "file": "sub-P08/ses-2cbExtra/sub-P08_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "be30150f7d8ecbdd08556ee0cbbaaeb265b28e3c729cabfff8626f5206168e44"
+  },
+  {
+   "file": "sub-P09/ses-0grain/eeg/sub-P09_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P09/ses-0grain/eeg/sub-P09_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P09/ses-0grain/eeg/sub-P09_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P09/ses-0grain/eeg/sub-P09_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 1599488,
+   "sha256": "71280067441b586fe19acf0502b0e93cf648cabe65adb026dc0fd29f44531427"
+  },
+  {
+   "file": "sub-P09/ses-0grain/eeg/sub-P09_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "71565df3440e0479cec60f926c653d94b42f78913339f4ea211654aa11a77e50"
+  },
+  {
+   "file": "sub-P09/ses-0grain/eeg/sub-P09_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P09/ses-0grain/eeg/sub-P09_ses-0grain_task-ERP_events.tsv",
+   "bytes": 39396,
+   "sha256": "5262f9daab1f0fbc944614835f60ea38b69c3a67cb034806c0c3df15378ee148"
+  },
+  {
+   "file": "sub-P09/ses-0grain/sub-P09_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "d62542bb1d8c82e9346ee35f68a62da3abd2814f1d59a168cc62907b72a8d143"
+  },
+  {
+   "file": "sub-P09/ses-1cb/eeg/sub-P09_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P09/ses-1cb/eeg/sub-P09_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P09/ses-1cb/eeg/sub-P09_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P09/ses-1cb/eeg/sub-P09_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1744640,
+   "sha256": "76867a6afd8984e2ad11b3f7867b7376da4452b80f6919a6ad2700340290bc74"
+  },
+  {
+   "file": "sub-P09/ses-1cb/eeg/sub-P09_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "850b8e2320231235442bb6ba6b8a8a0149a2ece6960f52e0de93fbddd46097a2"
+  },
+  {
+   "file": "sub-P09/ses-1cb/eeg/sub-P09_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P09/ses-1cb/eeg/sub-P09_ses-1cb_task-ERP_events.tsv",
+   "bytes": 63196,
+   "sha256": "002ddcd3d74db804bb24e181732cdfc2416a1e94cd96752f04ac60ed9bbd8af0"
+  },
+  {
+   "file": "sub-P09/ses-1cb/sub-P09_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "dd8e44ea028d5b957869e289b69ec58c5aaedce7106e0e6626e621382211ca53"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/eeg/sub-P09_ses-2grainExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/eeg/sub-P09_ses-2grainExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/eeg/sub-P09_ses-2grainExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/eeg/sub-P09_ses-2grainExtra_task-ERP_eeg.edf",
+   "bytes": 864656,
+   "sha256": "3c39c587ffbd70ca18985b0578a676219ef1baaa958ba35178a70bba6713e6d7"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/eeg/sub-P09_ses-2grainExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "9c72bd274bf5078f06a7d6c35ab495ee6af09c476b4052b57e403b37ab882506"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/eeg/sub-P09_ses-2grainExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/eeg/sub-P09_ses-2grainExtra_task-ERP_events.tsv",
+   "bytes": 33768,
+   "sha256": "368d1be8d81d213731c2ff69ebfb83879f40d2628345193a1cbbc6c9f7b8bcda"
+  },
+  {
+   "file": "sub-P09/ses-2grainExtra/sub-P09_ses-2grainExtra_scans.tsv",
+   "bytes": 96,
+   "sha256": "bbc14001487d3dc79206a8439d51dfbcdc5cd3ef371bcf257217c2b141e394d4"
+  },
+  {
+   "file": "sub-P10/ses-0cb/eeg/sub-P10_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P10/ses-0cb/eeg/sub-P10_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P10/ses-0cb/eeg/sub-P10_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P10/ses-0cb/eeg/sub-P10_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 1858040,
+   "sha256": "ccc5fe4596d9af0b57da619b8e7d6a2c753795a39712a17b9b86d2009b726944"
+  },
+  {
+   "file": "sub-P10/ses-0cb/eeg/sub-P10_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "48119aaa203172198db702d32b06c55078e5a6b05015a523bc7f773372664081"
+  },
+  {
+   "file": "sub-P10/ses-0cb/eeg/sub-P10_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P10/ses-0cb/eeg/sub-P10_ses-0cb_task-ERP_events.tsv",
+   "bytes": 43764,
+   "sha256": "0caaca7f5fcb5b24bd5cc75f9ffa63a6040c2549defe507dee8fa14ef08e6f8d"
+  },
+  {
+   "file": "sub-P10/ses-0cb/sub-P10_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "b67d11ed84d8e5753e66e3f48a4ec6634fbc31d99a7ccf91cd3f94c859b6ffac"
+  },
+  {
+   "file": "sub-P10/ses-1grain/eeg/sub-P10_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P10/ses-1grain/eeg/sub-P10_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P10/ses-1grain/eeg/sub-P10_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P10/ses-1grain/eeg/sub-P10_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 1894328,
+   "sha256": "84a54900233086f465ba123144cf06ebd0902ff570dfc42ce057d21f0c25b926"
+  },
+  {
+   "file": "sub-P10/ses-1grain/eeg/sub-P10_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "18d434cd96ba25fb3d10e56b03e5ff941ef052a93de05c2a394a5eb68407443d"
+  },
+  {
+   "file": "sub-P10/ses-1grain/eeg/sub-P10_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P10/ses-1grain/eeg/sub-P10_ses-1grain_task-ERP_events.tsv",
+   "bytes": 55310,
+   "sha256": "879075df57ada56c0f68d97357ed382a17b996747cb5ce112512d10ec118fdd3"
+  },
+  {
+   "file": "sub-P10/ses-1grain/sub-P10_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "c8ebfd91ab21b89f695ef361057cc6f77c8a406a79fe20a58790ab996c489053"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/eeg/sub-P10_ses-2grainExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/eeg/sub-P10_ses-2grainExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/eeg/sub-P10_ses-2grainExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/eeg/sub-P10_ses-2grainExtra_task-ERP_eeg.edf",
+   "bytes": 896408,
+   "sha256": "92d4b3a8f807f68edfdf220e0416d7b87aebfb26746f954e8ced7ee335f0c7a3"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/eeg/sub-P10_ses-2grainExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "b98fcf4131b952858f8235b8c72387a4222d185d0b95dcb3a7d64ce51d6240f8"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/eeg/sub-P10_ses-2grainExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/eeg/sub-P10_ses-2grainExtra_task-ERP_events.tsv",
+   "bytes": 30491,
+   "sha256": "c43b4d4a40f0dd56d07b20166b896fe48ff750dc49147c9560a05e33f3c92dab"
+  },
+  {
+   "file": "sub-P10/ses-2grainExtra/sub-P10_ses-2grainExtra_scans.tsv",
+   "bytes": 96,
+   "sha256": "3a3982193140cad51bd15d67c2b75b068c9e59754ee2464e6780481669d935b0"
+  },
+  {
+   "file": "sub-P11/ses-0grain/eeg/sub-P11_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P11/ses-0grain/eeg/sub-P11_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P11/ses-0grain/eeg/sub-P11_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P11/ses-0grain/eeg/sub-P11_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 2205368,
+   "sha256": "981c184b885dc69f52cb45c20fd52d32dbbe583d6a0af649435c230c3c1dec6a"
+  },
+  {
+   "file": "sub-P11/ses-0grain/eeg/sub-P11_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "d81ff0cfd7ac2d0b7599e4efb1556e68644554a939c286db1295c5e6bcb4a152"
+  },
+  {
+   "file": "sub-P11/ses-0grain/eeg/sub-P11_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P11/ses-0grain/eeg/sub-P11_ses-0grain_task-ERP_events.tsv",
+   "bytes": 46846,
+   "sha256": "25637baa1ace87be4eba7c28b34a050d044512464f54bdf5c23ed17cd8004399"
+  },
+  {
+   "file": "sub-P11/ses-0grain/sub-P11_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "4f6ea03e5268fdb17c01fe6cb5fcf273b0c9dc9ba621473947f2d22f5fc99dfe"
+  },
+  {
+   "file": "sub-P11/ses-1cb/eeg/sub-P11_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P11/ses-1cb/eeg/sub-P11_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P11/ses-1cb/eeg/sub-P11_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P11/ses-1cb/eeg/sub-P11_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1721960,
+   "sha256": "15af26ee645a43fd3b2fa6f86ddf56e5cdeb39065bb8777bac4789596a2f2b46"
+  },
+  {
+   "file": "sub-P11/ses-1cb/eeg/sub-P11_ses-1cb_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "0d295af06b7dc6c6c924747f73199618f0f594d3637b10dd171063a845591028"
+  },
+  {
+   "file": "sub-P11/ses-1cb/eeg/sub-P11_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P11/ses-1cb/eeg/sub-P11_ses-1cb_task-ERP_events.tsv",
+   "bytes": 63278,
+   "sha256": "3d6e13bf4859604648e3c2c7d645bd966b4febf216df5c0945ccaa850e3d54fb"
+  },
+  {
+   "file": "sub-P11/ses-1cb/sub-P11_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "493938b2aa6f0dec9cb8c257340ef593b6ba79c2bcd1cce868a7b57765b80df5"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/eeg/sub-P11_ses-2grainExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/eeg/sub-P11_ses-2grainExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/eeg/sub-P11_ses-2grainExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/eeg/sub-P11_ses-2grainExtra_task-ERP_eeg.edf",
+   "bytes": 1000736,
+   "sha256": "761501ea623199a37a0436ad44764fd3d4e63cac5d22385e2c8adca3874e2675"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/eeg/sub-P11_ses-2grainExtra_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "1a4ebccbf53df08b243a03a0af0e94f3665a088dc1141ae49c79569ccf89d19e"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/eeg/sub-P11_ses-2grainExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/eeg/sub-P11_ses-2grainExtra_task-ERP_events.tsv",
+   "bytes": 39529,
+   "sha256": "61cc489a14e3ce416771e1e0595a619d5d99be4b443971ebad672ed0d97d769f"
+  },
+  {
+   "file": "sub-P11/ses-2grainExtra/sub-P11_ses-2grainExtra_scans.tsv",
+   "bytes": 96,
+   "sha256": "95ccb18dbb96299a08ce514ffb96d604a447fc6a211e59289bf5b6a34ed2754a"
+  },
+  {
+   "file": "sub-P12/ses-0cb/eeg/sub-P12_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P12/ses-0cb/eeg/sub-P12_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P12/ses-0cb/eeg/sub-P12_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P12/ses-0cb/eeg/sub-P12_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 1649384,
+   "sha256": "932df66f5abd9a1a7c4d561a8b5cfffc5ff2cf1f3cba1dbb218ca6786a2cf46b"
+  },
+  {
+   "file": "sub-P12/ses-0cb/eeg/sub-P12_ses-0cb_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "e6903a65a3b9d23a413dbc881cfff38bbffbf32abcf4d97550a8267b1fc212c0"
+  },
+  {
+   "file": "sub-P12/ses-0cb/eeg/sub-P12_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P12/ses-0cb/eeg/sub-P12_ses-0cb_task-ERP_events.tsv",
+   "bytes": 48690,
+   "sha256": "97023dfc7a39a25325b65ddcbd4a98a6526185e27eda3394dbd4bb4d86d3d4ea"
+  },
+  {
+   "file": "sub-P12/ses-0cb/sub-P12_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "15ba601b460b79e5265a6f14dd6c6b4fb36217def4340dce46e04afccecc10c2"
+  },
+  {
+   "file": "sub-P12/ses-1grain/eeg/sub-P12_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P12/ses-1grain/eeg/sub-P12_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P12/ses-1grain/eeg/sub-P12_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P12/ses-1grain/eeg/sub-P12_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 2411432,
+   "sha256": "03b68e12d280af1a72a7fa658b5ab95d36130de8955bcb619ad7531a34ebb0d2"
+  },
+  {
+   "file": "sub-P12/ses-1grain/eeg/sub-P12_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "c80d6c44677f10a520b8b709b1681fe56f702442b3048f2eb8f6f9faa97d5792"
+  },
+  {
+   "file": "sub-P12/ses-1grain/eeg/sub-P12_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P12/ses-1grain/eeg/sub-P12_ses-1grain_task-ERP_events.tsv",
+   "bytes": 104916,
+   "sha256": "301d127181b818d6bc180b5ec57c2ef62f96cb1b07723165a87113eb855db5a8"
+  },
+  {
+   "file": "sub-P12/ses-1grain/sub-P12_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "e7212cd036ab7dbafcfdb5ae7dbfdf8d98dd4ae64fc9b19ede5e4eff3924f846"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/eeg/sub-P12_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/eeg/sub-P12_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/eeg/sub-P12_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/eeg/sub-P12_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1236608,
+   "sha256": "04f2616e72e4556c0aad632a5336bfe1d5dbc760b7ae69962b7c552458848775"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/eeg/sub-P12_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "88280a71122555b69632b2102a1e10195a0bde551a1394bfcbdd53d9ce9d5664"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/eeg/sub-P12_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/eeg/sub-P12_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 50625,
+   "sha256": "13f3b55dcd62f22cd0bdc5ff2f0e35bcaa78b05aef6c19c59fdec609c5884693"
+  },
+  {
+   "file": "sub-P12/ses-2cbExtra/sub-P12_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "0e6322f6abb93b9f3f700db503c7d2f4a18de81593ebabf1cf80c2ffff6ed1f9"
+  },
+  {
+   "file": "sub-P13/ses-0grain/eeg/sub-P13_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P13/ses-0grain/eeg/sub-P13_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P13/ses-0grain/eeg/sub-P13_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P13/ses-0grain/eeg/sub-P13_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 2024088,
+   "sha256": "e997b12152098732f9fff0ef91b0af29a9870c4ed0e01e7ab9285af4d82b41a0"
+  },
+  {
+   "file": "sub-P13/ses-0grain/eeg/sub-P13_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "26177ea4dac8c51a4f0d0af751ff13519487d2600f8acbc088350a71384de1e7"
+  },
+  {
+   "file": "sub-P13/ses-0grain/eeg/sub-P13_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P13/ses-0grain/eeg/sub-P13_ses-0grain_task-ERP_events.tsv",
+   "bytes": 52847,
+   "sha256": "6a53cb2139af7901810deefd2e310ccb54b04c8b541458a3b44436f94b19471d"
+  },
+  {
+   "file": "sub-P13/ses-0grain/sub-P13_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "a5e6506e03d49dda9b482c360b07bcec81fa64c5f26e815aeb300884ae368a6d"
+  },
+  {
+   "file": "sub-P13/ses-1cb/eeg/sub-P13_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P13/ses-1cb/eeg/sub-P13_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P13/ses-1cb/eeg/sub-P13_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P13/ses-1cb/eeg/sub-P13_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1662260,
+   "sha256": "6a9355aaeb42afc660db53956ddacb0b611751eef58b0c048415a820c70b6d76"
+  },
+  {
+   "file": "sub-P13/ses-1cb/eeg/sub-P13_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "cce575305546773035ed4492c1d91e991101a70f10fbb6024832542a43d77099"
+  },
+  {
+   "file": "sub-P13/ses-1cb/eeg/sub-P13_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P13/ses-1cb/eeg/sub-P13_ses-1cb_task-ERP_events.tsv",
+   "bytes": 62567,
+   "sha256": "8a30107f414d89017c8648490885c20355f892e2992222f05ba31012e5046321"
+  },
+  {
+   "file": "sub-P13/ses-1cb/sub-P13_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "b51fc5bcb2aff02a8da6c01e5e82c1f78f77d6e3ee5f516b6e59524229e485b7"
+  },
+  {
+   "file": "sub-P14/ses-0cb/eeg/sub-P14_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P14/ses-0cb/eeg/sub-P14_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P14/ses-0cb/eeg/sub-P14_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P14/ses-0cb/eeg/sub-P14_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 2003192,
+   "sha256": "f68912e7524087bcc35db00be8564df1f8a8bf0ae68769fa7e6b379e33459052"
+  },
+  {
+   "file": "sub-P14/ses-0cb/eeg/sub-P14_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "b8173df44cc9ddaed6ae36c5c237db1c9747264c71ed88c799f14202fd9e3acb"
+  },
+  {
+   "file": "sub-P14/ses-0cb/eeg/sub-P14_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P14/ses-0cb/eeg/sub-P14_ses-0cb_task-ERP_events.tsv",
+   "bytes": 52384,
+   "sha256": "9c7f7c315e7ec46691a08c75ee59ae2b4b22d401c99369eef8f44d7db34d9186"
+  },
+  {
+   "file": "sub-P14/ses-0cb/sub-P14_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "7abed1273ed6b582e434e04ffc9d033401915959fc4dc79fb6d0617fd995abc3"
+  },
+  {
+   "file": "sub-P14/ses-1grain/eeg/sub-P14_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P14/ses-1grain/eeg/sub-P14_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P14/ses-1grain/eeg/sub-P14_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P14/ses-1grain/eeg/sub-P14_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 2143808,
+   "sha256": "1ccfde6c092cd5191b64038e8bf0c81a0d72f59a69d96b5dad0a7be823079f30"
+  },
+  {
+   "file": "sub-P14/ses-1grain/eeg/sub-P14_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "d2f96e37ab6059fa9c26ae5ad1539a64fd99df1b7fbdf0da8a7f64f349de5f0f"
+  },
+  {
+   "file": "sub-P14/ses-1grain/eeg/sub-P14_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P14/ses-1grain/eeg/sub-P14_ses-1grain_task-ERP_events.tsv",
+   "bytes": 81301,
+   "sha256": "c29031899c5e37766c3d5453872b8b7493220f8a6d73a3d02bf25f317ce7e70f"
+  },
+  {
+   "file": "sub-P14/ses-1grain/sub-P14_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "30752ba40c41c6b0ccb0696817c2015a30f737f392cca6fb396534bc80400daa"
+  },
+  {
+   "file": "sub-P15/ses-1cb/eeg/sub-P15_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P15/ses-1cb/eeg/sub-P15_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P15/ses-1cb/eeg/sub-P15_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P15/ses-1cb/eeg/sub-P15_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1848968,
+   "sha256": "fcbcc0100f322306deb1f6ccdc57de37eddac675dd24fbe2e46f88425d60549d"
+  },
+  {
+   "file": "sub-P15/ses-1cb/eeg/sub-P15_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "1bb7646198b847d972b1543a110d287238de3dc44e0cfe8501aa20ce096a3d63"
+  },
+  {
+   "file": "sub-P15/ses-1cb/eeg/sub-P15_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P15/ses-1cb/eeg/sub-P15_ses-1cb_task-ERP_events.tsv",
+   "bytes": 48930,
+   "sha256": "b8c67cfe7818a3a961a722e130d126171eb43114a3f77c532dff6b39ef3002ef"
+  },
+  {
+   "file": "sub-P15/ses-1cb/sub-P15_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "abecaca1f4e0a6896b44d83891e7ffc9d6a618f8991ad7bf796ea6653833b192"
+  },
+  {
+   "file": "sub-P16/ses-0cb/eeg/sub-P16_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P16/ses-0cb/eeg/sub-P16_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P16/ses-0cb/eeg/sub-P16_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P16/ses-0cb/eeg/sub-P16_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 1903400,
+   "sha256": "49da3fb071cd5e16d10e7e0eaca8cd67ab2a3e7fa81c2aeeaa6129f3017f2144"
+  },
+  {
+   "file": "sub-P16/ses-0cb/eeg/sub-P16_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "b1612dabea49bdafdeb90c4c04bec62f1edeaf63d171d92cdf0de85f70f9ad33"
+  },
+  {
+   "file": "sub-P16/ses-0cb/eeg/sub-P16_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P16/ses-0cb/eeg/sub-P16_ses-0cb_task-ERP_events.tsv",
+   "bytes": 44969,
+   "sha256": "b90be98de5fc6959ad094147575e73817d8eb5b474f38824899429f080fb5861"
+  },
+  {
+   "file": "sub-P16/ses-0cb/sub-P16_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "b84a61ca5f321174e129423dba53cf9b11a3af8ffedbc1714cb8625f6cf04ac0"
+  },
+  {
+   "file": "sub-P16/ses-1grain/eeg/sub-P16_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P16/ses-1grain/eeg/sub-P16_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P16/ses-1grain/eeg/sub-P16_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P16/ses-1grain/eeg/sub-P16_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 1644848,
+   "sha256": "5fe5d7cc9b63c63c0a173dfee58ec3effa71744ff6e0e309737bcb02bb555f45"
+  },
+  {
+   "file": "sub-P16/ses-1grain/eeg/sub-P16_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "c27e2335f2b8827e48f83522d550b2f1ed8a80600e29134a9bdecbcc7e5fa23d"
+  },
+  {
+   "file": "sub-P16/ses-1grain/eeg/sub-P16_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P16/ses-1grain/eeg/sub-P16_ses-1grain_task-ERP_events.tsv",
+   "bytes": 51593,
+   "sha256": "3b4f766468196be1eb125be2aea8939214f2c12ac7db95133eb926f1a60772a5"
+  },
+  {
+   "file": "sub-P16/ses-1grain/sub-P16_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "2f5674fc2759693c6497580418aec854b290934f3ba1265f57a97bd9fb47711e"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/eeg/sub-P16_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/eeg/sub-P16_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/eeg/sub-P16_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/eeg/sub-P16_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 864656,
+   "sha256": "a6ed534af53ef65ea63129dd384b1572107263314b45a61ead96bc6c8be1476a"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/eeg/sub-P16_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "cbb283b462bebb0f0c1b0542bd103e4f009915b4ea973f745392260e3a5e115c"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/eeg/sub-P16_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/eeg/sub-P16_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 31803,
+   "sha256": "ca0bf6270a8ccdc344e077183f3388a4f7c8b6b8de9f9c9f56cf991f1f7f2004"
+  },
+  {
+   "file": "sub-P16/ses-2cbExtra/sub-P16_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "722fb7136bf3ef8e53a80664d90c24a56d39e0ecf48b71b4ae20534c4cf6b7b2"
+  },
+  {
+   "file": "sub-P17/ses-0grain/eeg/sub-P17_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P17/ses-0grain/eeg/sub-P17_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P17/ses-0grain/eeg/sub-P17_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P17/ses-0grain/eeg/sub-P17_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 2102058,
+   "sha256": "668379aec3f9e8a69ea2beffe5f6fa9187d507ed32e07b64a074a7c8c85b446f"
+  },
+  {
+   "file": "sub-P17/ses-0grain/eeg/sub-P17_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "ad70ea8b5d8d48f5fb4ab10ad6cbe82ec6b9f15e19b2847f97dccdcc5dbfc384"
+  },
+  {
+   "file": "sub-P17/ses-0grain/eeg/sub-P17_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P17/ses-0grain/eeg/sub-P17_ses-0grain_task-ERP_events.tsv",
+   "bytes": 41485,
+   "sha256": "431af1280158e578fcc3dc44d351b5708b0a0aa344c4f12f08ec26e1b92fb972"
+  },
+  {
+   "file": "sub-P17/ses-0grain/sub-P17_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "130ff24f6acf47a9355298389e4c8c3806b19cb92050f800a0f20ba44c264e8a"
+  },
+  {
+   "file": "sub-P17/ses-1cb/eeg/sub-P17_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P17/ses-1cb/eeg/sub-P17_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P17/ses-1cb/eeg/sub-P17_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P17/ses-1cb/eeg/sub-P17_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1717424,
+   "sha256": "7b21f6f6e9b3060273580dc4a01ee35faab3af1722b89a0755724cbe770541fb"
+  },
+  {
+   "file": "sub-P17/ses-1cb/eeg/sub-P17_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "8a31cb891cf0e81c72c9e81105d0eb84ebb8d8659a23363e86bfa35a3398208f"
+  },
+  {
+   "file": "sub-P17/ses-1cb/eeg/sub-P17_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P17/ses-1cb/eeg/sub-P17_ses-1cb_task-ERP_events.tsv",
+   "bytes": 59009,
+   "sha256": "64e7f9dd3a11152e7780c2b36bb1081f56f60c62ca7ac478e6af429f2d07ebcd"
+  },
+  {
+   "file": "sub-P17/ses-1cb/sub-P17_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "a31a04fefa71a0d8692bfed39af1f6b82b4e51643a2b24d2a02c111750d10467"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/eeg/sub-P17_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/eeg/sub-P17_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/eeg/sub-P17_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/eeg/sub-P17_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1055168,
+   "sha256": "b4750bf281ca0d873d5f10249a31c3f4ceeeb1e4da068d637bd88f577be79963"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/eeg/sub-P17_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "7593702d9c4f695077dce0e050d30da8d8af5bfe11354eb228c24de229d92057"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/eeg/sub-P17_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/eeg/sub-P17_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 36642,
+   "sha256": "cf35d74d49c840a57158b95f95685d145e12160e89fbb0c081ef131ee56a5aa8"
+  },
+  {
+   "file": "sub-P17/ses-2cbExtra/sub-P17_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "d2f267d70cf64bd77e2b136211aefb4bdfa41bcda3fcbbd0897dc6f4f731eac6"
+  },
+  {
+   "file": "sub-P19/ses-0grain/eeg/sub-P19_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P19/ses-0grain/eeg/sub-P19_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P19/ses-0grain/eeg/sub-P19_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P19/ses-0grain/eeg/sub-P19_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 1753712,
+   "sha256": "0c5c2c216e258fcbb505ac455837d2a76ba8127ce1dc4b62460fa4d4c3ca1bb3"
+  },
+  {
+   "file": "sub-P19/ses-0grain/eeg/sub-P19_ses-0grain_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "39bcb56792d4225e77182f1c7cb2365d800626d171b08d0452bccc35813204ee"
+  },
+  {
+   "file": "sub-P19/ses-0grain/eeg/sub-P19_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P19/ses-0grain/eeg/sub-P19_ses-0grain_task-ERP_events.tsv",
+   "bytes": 42275,
+   "sha256": "1c6eca8e753d908900216b8f8ae9c8975ecc64b92991ca6e814c48ad9bd7d23b"
+  },
+  {
+   "file": "sub-P19/ses-0grain/sub-P19_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "1670c48133b253e515ac69c7ac3b2a600cd507d120856b26da0cc7cc88684484"
+  },
+  {
+   "file": "sub-P19/ses-1cb/eeg/sub-P19_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P19/ses-1cb/eeg/sub-P19_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P19/ses-1cb/eeg/sub-P19_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P19/ses-1cb/eeg/sub-P19_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1517840,
+   "sha256": "0b7a5dcecde740b0015f96f5b34abd3148446e75e0966aecae4b3c69fa496949"
+  },
+  {
+   "file": "sub-P19/ses-1cb/eeg/sub-P19_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "2e7d26016344fe0d37b6d5cdce7c25ecef8f77ec4801593beda844132c64c2b3"
+  },
+  {
+   "file": "sub-P19/ses-1cb/eeg/sub-P19_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P19/ses-1cb/eeg/sub-P19_ses-1cb_task-ERP_events.tsv",
+   "bytes": 52301,
+   "sha256": "b22f9c9d0dbc47529a17d93ab489e2dc2b4461131e52497b8c4fddc5880947eb"
+  },
+  {
+   "file": "sub-P19/ses-1cb/sub-P19_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "976dfe5c4c444d4619359d3e29db02bebdb5fccb00f2ab01b436b05d12d8c3bd"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/eeg/sub-P19_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/eeg/sub-P19_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/eeg/sub-P19_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/eeg/sub-P19_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1100044,
+   "sha256": "999c3cdb90dab02c7cec4670c16e237b0fee2538189457ee008d9e15fbfae1b1"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/eeg/sub-P19_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "4ba1e0f64f45f7c140edeecd84603053ee6ca64770c27622db74881b01a160f5"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/eeg/sub-P19_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/eeg/sub-P19_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 32332,
+   "sha256": "11bdbecc7dadf1d3c668afda6dd2e7b452673a74ff9c5426954086ecad4a38cc"
+  },
+  {
+   "file": "sub-P19/ses-2cbExtra/sub-P19_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "a37d9cc152ebebf3b85533c6a6f3e8f048116b6e4d59240037a77b2e9c6ab0f8"
+  },
+  {
+   "file": "sub-P20/ses-0cb/eeg/sub-P20_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P20/ses-0cb/eeg/sub-P20_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P20/ses-0cb/eeg/sub-P20_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P20/ses-0cb/eeg/sub-P20_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 1965172,
+   "sha256": "be22f7eb1c5704b486812b211f020e4b7c202de7e0143f8b0d94f65af4d999a9"
+  },
+  {
+   "file": "sub-P20/ses-0cb/eeg/sub-P20_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "da869007e588a8df6fa447ac77f48212e856274cfe34fc151d6cf82f0514d54a"
+  },
+  {
+   "file": "sub-P20/ses-0cb/eeg/sub-P20_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P20/ses-0cb/eeg/sub-P20_ses-0cb_task-ERP_events.tsv",
+   "bytes": 42143,
+   "sha256": "24dbbe6acfd260ad71383c514c4aebc9c93934f9011c0b1fff6c274a49f417cc"
+  },
+  {
+   "file": "sub-P20/ses-0cb/sub-P20_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "7f7acfe82feb82d9009b77a7245888bc0e741896a423bc1307e5e65d272971b2"
+  },
+  {
+   "file": "sub-P20/ses-1grain/eeg/sub-P20_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P20/ses-1grain/eeg/sub-P20_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P20/ses-1grain/eeg/sub-P20_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P20/ses-1grain/eeg/sub-P20_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 1816416,
+   "sha256": "2e0496aa3b232dbf7abc5083f173c230f22478cab85a689188026553a05b7b6f"
+  },
+  {
+   "file": "sub-P20/ses-1grain/eeg/sub-P20_ses-1grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "59ab54d1a2cce10ade45dd68203a7fb486c77a7f90e87db9c3e6899648ffb4e1"
+  },
+  {
+   "file": "sub-P20/ses-1grain/eeg/sub-P20_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P20/ses-1grain/eeg/sub-P20_ses-1grain_task-ERP_events.tsv",
+   "bytes": 64859,
+   "sha256": "2ff9014c62898bfbad98452f33789479c12c85fb3c7d51a00eb758f59121d63a"
+  },
+  {
+   "file": "sub-P20/ses-1grain/sub-P20_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "2c13486decf29f424a2be8e3f3b921c0cadee73c25f2bead2a530368e2a91ffa"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/eeg/sub-P20_ses-2grainExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/eeg/sub-P20_ses-2grainExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/eeg/sub-P20_ses-2grainExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/eeg/sub-P20_ses-2grainExtra_task-ERP_eeg.edf",
+   "bytes": 1136816,
+   "sha256": "27a98d91085eb0827841d576dbcffe07415964fe64d26394c3ddc94b636a34cd"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/eeg/sub-P20_ses-2grainExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "beb2ccfa9a9bbd83b1dd5ec3971c08540d178dceff7a1fe2890446935ef9e73c"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/eeg/sub-P20_ses-2grainExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/eeg/sub-P20_ses-2grainExtra_task-ERP_events.tsv",
+   "bytes": 39516,
+   "sha256": "4ddc6474de7891122ed0bf0a61cc9154f8e8df575fcf2baa83256b183a09b375"
+  },
+  {
+   "file": "sub-P20/ses-2grainExtra/sub-P20_ses-2grainExtra_scans.tsv",
+   "bytes": 96,
+   "sha256": "5595bf08ec22eb770a0a28d249daed9a2d243e5853ddb1c5911d1e1d07e59d5a"
+  },
+  {
+   "file": "sub-P21/ses-0grain/eeg/sub-P21_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P21/ses-0grain/eeg/sub-P21_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P21/ses-0grain/eeg/sub-P21_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P21/ses-0grain/eeg/sub-P21_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 2365030,
+   "sha256": "e8433f502a82e60b237c77e988a9c24d11b63acb794f9b439b1c1f80cad93957"
+  },
+  {
+   "file": "sub-P21/ses-0grain/eeg/sub-P21_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "5400d7fbf8e9590c39377772686e2ed6cabfba4dc15e0c397ed2a129dd95f023"
+  },
+  {
+   "file": "sub-P21/ses-0grain/eeg/sub-P21_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P21/ses-0grain/eeg/sub-P21_ses-0grain_task-ERP_events.tsv",
+   "bytes": 70935,
+   "sha256": "dbf1b0555516209ce96b41ea36896e9afb14044c2f7d4e92a039d762e17d9aa7"
+  },
+  {
+   "file": "sub-P21/ses-0grain/sub-P21_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "7af4432e16c998d80dc2c416e7ccaaf4a9ac76d16c44e38e67089fd8114b8943"
+  },
+  {
+   "file": "sub-P21/ses-1cb/eeg/sub-P21_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P21/ses-1cb/eeg/sub-P21_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P21/ses-1cb/eeg/sub-P21_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P21/ses-1cb/eeg/sub-P21_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 2239064,
+   "sha256": "0df4b7eaa8bdf3b4a2729141e5b59988259a52e6464fddcdd2cce4bf32a95cd0"
+  },
+  {
+   "file": "sub-P21/ses-1cb/eeg/sub-P21_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "f0def6c647189ad84809bf11950f7913de21d3b4f12cea1d0d0d5119b6afedbe"
+  },
+  {
+   "file": "sub-P21/ses-1cb/eeg/sub-P21_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P21/ses-1cb/eeg/sub-P21_ses-1cb_task-ERP_events.tsv",
+   "bytes": 92848,
+   "sha256": "cf775094050b6c177242ca7485cb8b9f61ba200d1f15275e30b8cd47f5f5eebc"
+  },
+  {
+   "file": "sub-P21/ses-1cb/sub-P21_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "3ea08c0244fe674aab7c2d7635f0e9206a546b7d1d34e0546848d430533c7fa1"
+  },
+  {
+   "file": "sub-P22/ses-0cb/eeg/sub-P22_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P22/ses-0cb/eeg/sub-P22_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P22/ses-0cb/eeg/sub-P22_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P22/ses-0cb/eeg/sub-P22_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 2706272,
+   "sha256": "a0c66a3fc025c3e88974e0cb27f18b45ac36b0f118afc8af321f04613c3442e9"
+  },
+  {
+   "file": "sub-P22/ses-0cb/eeg/sub-P22_ses-0cb_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "11cd2d59dc5e0de8e879b93ed25a5ee9f8db36069ec2a164f65d23f52ffe71ed"
+  },
+  {
+   "file": "sub-P22/ses-0cb/eeg/sub-P22_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P22/ses-0cb/eeg/sub-P22_ses-0cb_task-ERP_events.tsv",
+   "bytes": 52116,
+   "sha256": "973aa12547205ebac32f2cfa886bb8fc2cae69d717db365ce0bac9aadc7d8bac"
+  },
+  {
+   "file": "sub-P22/ses-0cb/sub-P22_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "b56ae31c161cb2cf759f5beff85b92e25748718d3ca1f6e1b25e31c25c9a9a29"
+  },
+  {
+   "file": "sub-P22/ses-1grain/eeg/sub-P22_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P22/ses-1grain/eeg/sub-P22_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P22/ses-1grain/eeg/sub-P22_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P22/ses-1grain/eeg/sub-P22_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 2311640,
+   "sha256": "558484a3ac51740305c8415adfd93538761652bc2a49f527e93eac602063c6e8"
+  },
+  {
+   "file": "sub-P22/ses-1grain/eeg/sub-P22_ses-1grain_task-ERP_eeg.json",
+   "bytes": 510,
+   "sha256": "04ed96a0f6ce8ceac09fc35f5780bb6875cd91d80d39f98c707ca97467225ed8"
+  },
+  {
+   "file": "sub-P22/ses-1grain/eeg/sub-P22_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P22/ses-1grain/eeg/sub-P22_ses-1grain_task-ERP_events.tsv",
+   "bytes": 84204,
+   "sha256": "56eb8073fae7fc094caa6d6a41a05737fbd90f479fde05f2e5c4d39ecaa84b67"
+  },
+  {
+   "file": "sub-P22/ses-1grain/sub-P22_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "65133be0098845a84925437c5b2282da807603d0e327e7118c7769ceba239fd0"
+  },
+  {
+   "file": "sub-P23/ses-0grain/eeg/sub-P23_ses-0grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P23/ses-0grain/eeg/sub-P23_ses-0grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P23/ses-0grain/eeg/sub-P23_ses-0grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P23/ses-0grain/eeg/sub-P23_ses-0grain_task-ERP_eeg.edf",
+   "bytes": 2070320,
+   "sha256": "986924877234106d0c20c9fc9df317731cfff15dfef7040deede05a2bd91f0d0"
+  },
+  {
+   "file": "sub-P23/ses-0grain/eeg/sub-P23_ses-0grain_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "b9639bba145cecab8fe3ee81e98771a0dd5e2872cdbbe248fc8a6024ae2bb687"
+  },
+  {
+   "file": "sub-P23/ses-0grain/eeg/sub-P23_ses-0grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P23/ses-0grain/eeg/sub-P23_ses-0grain_task-ERP_events.tsv",
+   "bytes": 52845,
+   "sha256": "def7042668c8ebe3a2921e93baf3c91535f7d55d70a6c9c803ea4661c22bce80"
+  },
+  {
+   "file": "sub-P23/ses-0grain/sub-P23_ses-0grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "6d4456a5641586cf8ac5eb3e69a13e1ed0db841821e1a27a8408fba45b136235"
+  },
+  {
+   "file": "sub-P23/ses-1cb/eeg/sub-P23_ses-1cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P23/ses-1cb/eeg/sub-P23_ses-1cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P23/ses-1cb/eeg/sub-P23_ses-1cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P23/ses-1cb/eeg/sub-P23_ses-1cb_task-ERP_eeg.edf",
+   "bytes": 1853504,
+   "sha256": "6365c82e2cfd1611ffe98a2dffad4b6437855aa63eb4e147c5b78ab3cf669bce"
+  },
+  {
+   "file": "sub-P23/ses-1cb/eeg/sub-P23_ses-1cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "4f80a7bce73b245ffd302860313b72fc35d17e7e7bc320018530ee70dbffdb26"
+  },
+  {
+   "file": "sub-P23/ses-1cb/eeg/sub-P23_ses-1cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P23/ses-1cb/eeg/sub-P23_ses-1cb_task-ERP_events.tsv",
+   "bytes": 67758,
+   "sha256": "83811747eb32e414dcab4363267ff9b471f4f3ade2dfaa2628bd50d47dff36d7"
+  },
+  {
+   "file": "sub-P23/ses-1cb/sub-P23_ses-1cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "06d51e82439c8d8aa5246e447aaa44cef3a1beb15bac4c9ecd24827e52312443"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/eeg/sub-P23_ses-2cbExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/eeg/sub-P23_ses-2cbExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/eeg/sub-P23_ses-2cbExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/eeg/sub-P23_ses-2cbExtra_task-ERP_eeg.edf",
+   "bytes": 1086920,
+   "sha256": "fb1760d6ce8ea969a775e404c51c996ec0117476fc2b6705d23bd23cd787d6d6"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/eeg/sub-P23_ses-2cbExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "0ff556256735b01e0be7f167e10eb6a098e4c070e7524ee5e5b324e5deba7f3b"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/eeg/sub-P23_ses-2cbExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/eeg/sub-P23_ses-2cbExtra_task-ERP_events.tsv",
+   "bytes": 45035,
+   "sha256": "bd73c5d1aceee4db6ce100673952a5b1ebb04ecbb95d698964c5d6bd213805a7"
+  },
+  {
+   "file": "sub-P23/ses-2cbExtra/sub-P23_ses-2cbExtra_scans.tsv",
+   "bytes": 93,
+   "sha256": "e9fcd296c325e0fa8b7438f5e36cdfd6a726d67540baa9d8ac909e4bab647268"
+  },
+  {
+   "file": "sub-P24/ses-0cb/eeg/sub-P24_ses-0cb_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P24/ses-0cb/eeg/sub-P24_ses-0cb_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P24/ses-0cb/eeg/sub-P24_ses-0cb_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P24/ses-0cb/eeg/sub-P24_ses-0cb_task-ERP_eeg.edf",
+   "bytes": 1921544,
+   "sha256": "cb4f9b5c990e3951de6c70f435a5b21baea26820c8d0c0ce4fd186d4ba04ee7c"
+  },
+  {
+   "file": "sub-P24/ses-0cb/eeg/sub-P24_ses-0cb_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "4dd6746bd480d8ff3002ab36aa06b41ac64d72cea1d05b866a8e356d8148ff80"
+  },
+  {
+   "file": "sub-P24/ses-0cb/eeg/sub-P24_ses-0cb_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P24/ses-0cb/eeg/sub-P24_ses-0cb_task-ERP_events.tsv",
+   "bytes": 43459,
+   "sha256": "591a0616f1ffb1cd71b4274a9089324794164ef29c325e2c07f15475e32482f3"
+  },
+  {
+   "file": "sub-P24/ses-0cb/sub-P24_ses-0cb_scans.tsv",
+   "bytes": 88,
+   "sha256": "67bd5c4c92f6ced0eb0d29ee2dc58ca16d283a6fdf3479e04fa54567c73a388b"
+  },
+  {
+   "file": "sub-P24/ses-1grain/eeg/sub-P24_ses-1grain_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P24/ses-1grain/eeg/sub-P24_ses-1grain_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P24/ses-1grain/eeg/sub-P24_ses-1grain_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P24/ses-1grain/eeg/sub-P24_ses-1grain_task-ERP_eeg.edf",
+   "bytes": 1599488,
+   "sha256": "b6873afbe974eaa7c6e443edcf957d95047f463cd4583533348e897a83a24264"
+  },
+  {
+   "file": "sub-P24/ses-1grain/eeg/sub-P24_ses-1grain_task-ERP_eeg.json",
+   "bytes": 509,
+   "sha256": "852e2fff657c0a6eb3923aa2742dd421ca08322cd825f77e9555a94fe5f7d194"
+  },
+  {
+   "file": "sub-P24/ses-1grain/eeg/sub-P24_ses-1grain_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P24/ses-1grain/eeg/sub-P24_ses-1grain_task-ERP_events.tsv",
+   "bytes": 53154,
+   "sha256": "6ad2f77bf5c56f9cab563e00fa406cd0490f33f295c970f7984fd7a083cda3f9"
+  },
+  {
+   "file": "sub-P24/ses-1grain/sub-P24_ses-1grain_scans.tsv",
+   "bytes": 91,
+   "sha256": "aa13e38cea3de106e4823dcf14bdcccc63dc139c42d5052d75e81b398418018f"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/eeg/sub-P24_ses-2grainExtra_space-CapTrak_coordsystem.json",
+   "bytes": 1081,
+   "sha256": "972b3dd796da21a0eca6668ce6dcb7e9330b6618e2ff72662204d1fc0546f022"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/eeg/sub-P24_ses-2grainExtra_space-CapTrak_electrodes.tsv",
+   "bytes": 547,
+   "sha256": "94afd257008c3febe890779f2040654d92d91166df9b2a3cce81d07c0645dbaf"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/eeg/sub-P24_ses-2grainExtra_task-ERP_channels.tsv",
+   "bytes": 595,
+   "sha256": "94e938a6ef817dfbe3ffabb64541cdde18747149be27d0860db5d0e1ef5e6beb"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/eeg/sub-P24_ses-2grainExtra_task-ERP_eeg.edf",
+   "bytes": 1308608,
+   "sha256": "73354911137471152ef59d9e00db72c19d65ef908a730a2fdb26df933e3c9551"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/eeg/sub-P24_ses-2grainExtra_task-ERP_eeg.json",
+   "bytes": 511,
+   "sha256": "ea0289e54869f1a9b3f711bc8b17df5181d853222ad6719a0ae7349a3153cdaf"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/eeg/sub-P24_ses-2grainExtra_task-ERP_events.json",
+   "bytes": 786,
+   "sha256": "7d8a1d3535368695b608f474a8532b59f92d7b8516b60156a4e8c58e285c3fad"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/eeg/sub-P24_ses-2grainExtra_task-ERP_events.tsv",
+   "bytes": 37676,
+   "sha256": "9978b21ed698f92fae71cc834f42f5f4fec3c80bfbb6789c46e6c46b95ee833f"
+  },
+  {
+   "file": "sub-P24/ses-2grainExtra/sub-P24_ses-2grainExtra_scans.tsv",
+   "bytes": 96,
+   "sha256": "d62563b7540ae4070d42619eb7e47137eaf08393b713ab5e03d3d6870f5ab83d"
+  }
+ ]
+}
