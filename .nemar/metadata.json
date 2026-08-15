@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Romani et al. 2025 — BrainForm: a Serious Game for BCI Training and Data Collection (P300 ERP, University of Trento)",
-  "description": "BrainForm is a P300 event-related potential (ERP) EEG dataset collected from 22 participants using a gamified brain-computer interface (BCI) designed for scalable data collection with consumer hardware. Participants completed repeated runs of a P300 spelling/selection task within a serious game paradigm, enabling investigation of BCI skill acquisition across sessions and the effects of different visual stimulation textures on perceptual and performance outcomes. The dataset supports research in BCI training, human factors, and machine learning applications on ERP data.",
+  "description": "BrainForm is a P300 event-related potential (ERP) EEG dataset collected from 22 participants using a gamified brain-computer interface (BCI) designed for scalable data collection with consumer hardware. Participants completed repeated runs of a P300 spelling/selection task within a serious game paradigm, enabling investigation of BCI skill acquisition across sessions and perceptual effects of different visual stimulation textures. The dataset supports research in BCI training, human factors, and machine learning applications for ERP-based systems.",
   "methods_description": "Scalp electroencephalography (EEG) recordings were collected during a P300 oddball/speller task embedded within a serious game. Participants completed multiple runs with two task complexity levels in a within-subject design using consumer hardware and minimal setup.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
@@ -72,5 +72,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "1b65da8f7a0a5beeff59c25517231e13b3bc47095e463ea3480eca37b600e07b"
+  "source_hash": "7247adbda62af484e44b9dbfd9867279e36455b3e21b5e5472deba94b071876f"
 }
