@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Romani et al. 2025 — BrainForm: a Serious Game for BCI Training and Data Collection (P300 ERP, University of Trento)",
-  "description": "This dataset comprises scalp EEG recordings from 22 participants collected using BrainForm, a gamified brain-computer interface designed for P300 event-related potential elicitation via a serious-game speller/selection task. The data support investigation of BCI skill acquisition across repeated sessions and the effects of different visual stimulation textures on P300 performance. Recordings were collected at the University of Trento using consumer-grade hardware and a minimal EEG setup, then converted to BIDS format for reuse.",
-  "methods_description": "Participants completed repeated runs of a P300 spelling/selection task within a serious game, using consumer EEG hardware and a minimal setup, with a within-subject design involving multiple runs and two task complexities.",
+  "description": "This dataset contains scalp EEG recordings from 22 participants who played BrainForm, a gamified P300 event-related potential brain-computer interface built for scalable data collection with consumer hardware and a minimal setup. Participants completed repeated runs of a P300 spelling/selection task at two task complexities. The data support study of BCI skill acquisition across sessions and of how different visual stimulation textures affect perception and performance.",
+  "methods_description": "Participants performed repeated runs of a P300 oddball/speller-style selection task embedded in a serious game, using a within-subject design with multiple runs and two task complexities. EEG was recorded with consumer-grade hardware and a minimal setup.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -27,21 +27,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "Machine Learning",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069550"
-    },
-    {
-      "term": "Serious Games"
-    },
-    {
-      "term": "Human factors"
-    },
-    {
-      "term": "Consumer-grade EEG"
+      "term": "serious game"
     },
     {
       "term": "BCI training"
+    },
+    {
+      "term": "machine learning"
     }
   ],
   "related_identifiers": [
@@ -61,13 +53,18 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "funding_references": [
+    {
+      "funder_name": "University of Trento and Fondazione Bruno Kessler"
+    }
+  ],
   "resource_type_general": "Dataset",
   "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
   "sizes": [
-    "242.8 MB (182 files)"
+    "232 MB (182 files)"
   ],
   "formats": [
     ".bdf",
@@ -77,11 +74,6 @@
     ".tsv",
     ".yaml",
     ".yml"
-  ],
-  "funding_references": [
-    {
-      "funder_name": "University of Trento and Fondazione Bruno Kessler"
-    }
   ],
   "source_hash": "08ed4a7c44c34aaf4fc2f09d95f104636c8790fecccb016328bf68c8e703ec6b"
 }
